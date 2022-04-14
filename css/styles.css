@@ -1,0 +1,181 @@
+body{
+    font-family: "montserrat";
+
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+h1{
+    font-family: 'Montserrat';
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+h2{
+    line-height: 1.5;
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+}
+
+.container-fluid{
+   padding: 0 5% 3% 5%;
+
+
+}
+ /* navigation bar */
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 4.3rem;
+    padding-right: 0;
+
+}
+
+ .nav-item{
+    padding: 0px 18px;
+
+}
+
+/* download buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* photo */
+
+.photo{
+    width: 50%;
+    transform: rotate(25deg);
+}
+
+/* features */
+
+#features{
+    text-align: center;
+    padding: 8%;
+    background-color: white;
+    
+
+}
+
+.icon{
+    color:#ef8172;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+.feature-head{
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+}
+
+.col-header{
+    padding: 0% 6%;
+}
+
+
+
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #f75b47;
+    color:white;
+}
+
+.image-testimonial{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+/* press */
+
+#press{
+    background-color: #f75b47;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+.carousel-item{
+    padding:3% 16% ;
+}
+
+.card{
+    text-align: center;
+    padding: 4px;
+}
+.row{
+    margin: 20px;
+    padding-top: 4%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10%;
+    color:white;
+    
+}
+.cta-text{
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    padding: 0px 100px;
+    margin-bottom: 53px;
+
+}
+.d-button{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+ /* footer */
+
+#footer{
+    text-align: center;
+    padding: 5% 20% 5% 20%;
+    
+}
+
+.logo{
+    padding-bottom: 3%;
+}
+
+.inter-logo{
+    padding: 2%;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .photo{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+
+    .row{
+        text-align: center;
+        
+    }
+    
+}
